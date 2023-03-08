@@ -21,4 +21,5 @@ public interface ComprobarPalabraService {
     public void setLetrasTotalesIntroducidas(String letrasTotalesIntroducidas);
 
     public boolean letrasIntroducidas(String palabraIntroducida);
+    public void vaciarStringletrasIntroducidas();
 }

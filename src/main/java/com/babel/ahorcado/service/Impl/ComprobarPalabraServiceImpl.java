@@ -56,6 +56,10 @@ public class ComprobarPalabraServiceImpl implements ComprobarPalabraService {
         }
         return letraintroducida;
     }
+    @Override
+    public void vaciarStringletrasIntroducidas(){
+        letrasTotalesIntroducidas = "";
+    }
 
     @Override
     public void setLetrasTotalesIntroducidas(String letrasTotalesIntroducidas) {

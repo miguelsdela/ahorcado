@@ -40,6 +40,7 @@ public class ConsoleReader {
                     comprobarPalabraService.subirPalabrasAlRepository();
                     comprobarPalabraService.vaciarArrayIndices();
                     comprobarPalabraService.getPalabraParaComprobarSeleccionada();
+                    comprobarPalabraService.vaciarStringletrasIntroducidas();
                     String palabraGuiones = comprobarPalabraService.getPalabraParaMostrarConGuiones();
                     do {
                         String respuesta;
