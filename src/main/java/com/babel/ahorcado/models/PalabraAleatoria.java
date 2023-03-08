@@ -22,6 +22,11 @@ public class PalabraAleatoria {
         palabras.add("OCHO");
         palabras.add("NUEVE");
         palabras.add("DIEZ");
+        palabras.add("ONCE");
+        palabras.add("DOCE");
+        palabras.add("TRECE");
+        palabras.add("CATORCE");
+        palabras.add("QUINCE");
     }
 
     public List<String> getPalabras() {

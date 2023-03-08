@@ -34,7 +34,7 @@ public class ComprobarPalabraServiceImpl implements ComprobarPalabraService {
 
     @Override
     public String getPalabraParaComprobarSeleccionada() {
-        palabraSolucion = palabraAleatoria.getPalabraSeleccionada((int) (Math.random() * 9));
+        palabraSolucion = palabraAleatoria.getPalabraSeleccionada((int) (Math.random() * palabraAleatoria.getPalabras().size()));
         return palabraSolucion;
     }
 
