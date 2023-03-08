@@ -21,7 +21,8 @@ public class ConsoleReader {
         int opcion = 0;
         String opcionMenu;
         do {
-            System.out.println("\nMENU");
+            System.out.println("\nJUEGO DEL AHORCADO");
+            System.out.println("******MENU******");
             System.out.println("1.- Juego Nuevo");
             System.out.println("2.- Salir");
             System.out.println("Introduce una opcion: ");
@@ -30,7 +31,7 @@ public class ConsoleReader {
             try {
                 opcion = Integer.parseInt(opcionMenu);
             } catch (Exception e) {
-                System.out.println("Opcion no valida, ingresa un numero");
+                System.out.println("Opcion no valida, debes ingresar un numero");
             }
             switch (opcion) {
                 case 1:
